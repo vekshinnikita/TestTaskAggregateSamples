@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "telegramtesttask"
+name = "testtaskaggregatesamples"
 version = "0.1.0"
 description = ""
 authors = ["Nikita <vekshinnikita>"]
@@ -12,6 +12,7 @@ pydantic = "^2.7.1"
 asyncio = "^3.4.3"
 motor = "^3.4.0"
 python-dateutil = "^2.9.0.post0"
+python-dotenv = "^1.0.1"
 
 
 [build-system]
