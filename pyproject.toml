@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "telegramtesttask"
+version = "0.1.0"
+description = ""
+authors = ["Nikita <vekshinnikita>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+aiogram = "^3.6.0"
+pydantic = "^2.7.1"
+asyncio = "^3.4.3"
+motor = "^3.4.0"
+python-dateutil = "^2.9.0.post0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
